@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	 background-color:rgb(30,30,30);
+}
+h1 {
+	color: rgb(0, 171, 174);
+	font-size: 90px;
+	font-family: Colchester;
+	margin-bottom: 20px;
+}
+h2 {
+	text-align: center;
+	color: rgb(0, 171, 174);
+	font-size: 50px;
+	font-family: Colchester;
+	padding-bottom: 35px;
+}
+.main_para_content {
+	color: rgb(178,178,178);
+	font-size: 16px;
+	padding-bottom: 100px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+p {
+	font-family: Montserrat
+}
+#logo {
+	border: 1px solid #6d6d6d;
+	margin-top: 50px;
+}
+
+#author {
+	margin-left: 70px;
+	border: 1px solid #ddd;
+  	border-radius: 40px;
+ }
+ #Aname {
+	padding-top: 15px;
+	font-size: 12px;
+	margin-bottom:0px;
+	padding-bottom: 10px;
+ }
+.header{
+	background: rgb(25,25,25);
+	margin-bottom: 100px;
+	padding-bottom: 10px;
+}
+.nav {
+	color: rgb(178,178,178);
+	font-size: 18px;
+	margin-bottom:20px;
+	margin-left: 100px;
+}
