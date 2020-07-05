@@ -7,6 +7,10 @@
     font-family: 'Colchester';
     src: url('Fonts/Colchester.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fonts/Montserrat-Regular.ttf') format('truetype');
+}
 body {
 	 background-color:rgb(30,30,30);
 }
@@ -58,4 +62,5 @@ body {
 	font-size: 18px;
 	margin-bottom:20px;
 	margin-left: 100px;
+	font-family: Montserrat
 }
