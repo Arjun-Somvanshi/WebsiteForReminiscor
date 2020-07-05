@@ -4,12 +4,8 @@
 	box-sizing: border-box;
 }
 @font-face {
-    font-family: "Colchester";
-    src: url("/Fonts/Colchester.ttf");
-    font-family: "Montserrat";
-    src: url("/Fonts/Montserrat-Regular.ttf");
-    font-family: "MontserratBold";
-    src: url("/Fonts/Montserrat-Bold.ttf");
+    font-family: 'Colchester';
+    src: url('Fonts/Colchester.ttf') format('truetype');
 }
 body {
 	 background-color:rgb(30,30,30);
