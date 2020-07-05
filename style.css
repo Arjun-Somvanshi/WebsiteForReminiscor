@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: "Colchester";
-    src: url("Fonts/Colchester.ttf");
+    src: url("/Fonts/Colchester.ttf");
     font-family: "Montserrat";
-    src: url("Fonts/Montserrat-Regular.ttf");
+    src: url("/Fonts/Montserrat-Regular.ttf");
     font-family: "MontserratBold";
-    src: url("Fonts/Montserrat-Bold.ttf");
+    src: url("/Fonts/Montserrat-Bold.ttf");
 }
 body {
 	 background-color:rgb(30,30,30);
@@ -17,14 +17,14 @@ body {
 h1 {
 	color: rgb(0, 171, 174);
 	font-size: 90px;
-	font-family: "Colchester";
+	font-family: Colchester;
 	margin-bottom: 20px;
 }
 h2 {
 	text-align: center;
 	color: rgb(0, 171, 174);
 	font-size: 50px;
-	font-family: "Colchester";
+	font-family: Colchester;
 	padding-bottom: 35px;
 }
 .main_para_content {
@@ -35,7 +35,7 @@ h2 {
 	margin-right: 70px;
 }
 p {
-	font-family: "Montserrat";
+	font-family: Montserrat;
 }
 #logo {
 	border: 1px solid #6d6d6d;
