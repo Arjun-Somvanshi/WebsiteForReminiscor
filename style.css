@@ -15,11 +15,57 @@ body {
 	 background-color:rgb(30,30,30);
 }
 #h1 {
+	float: left;
 	color: rgb(0, 171, 174);
 	font-size: 90px;
 	font-family: Colchester;
-	margin-bottom: 20px;
+	padding-bottom: 0px;
+	width:20%;
+	margin-left:385px;
 }
+.motto {
+	float: left;
+	width:22%;
+	text-align: center;
+	color: rgb(0, 171, 174);
+	font-size: 30px;
+	font-family: Montserrat;
+	padding-bottom: 0px;
+	margin:50px 0 0 20px;
+}
+#logo {
+	float:left;
+	border: 1px solid #6d6d6d;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+.header{
+	background: rgb(25,25,25);
+	padding:50px 0 120px 0px;
+}
+.header2{
+	background:rgb(25,25,25);
+	margin-bottom:100px;
+	margin-top: 0px;
+	padding:0px 0px 33px 0px;
+	border-top: 1px solid rgb(45,45,45);
+}
+.nav {
+	float: left;
+	color: rgb(178,178,178);
+	font-size: 18px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	width:25%;
+	font-family: Montserrat;
+	background-color: rgb(25,25,25);
+	border-right: 1px solid rgb(45,45,45);
+}
+.nav:hover{
+	background-color: rgb(15,15,15);
+}
+
 .h2 {
 	text-align: center;
 	color: rgb(0, 171, 174);
@@ -35,10 +81,6 @@ body {
 	margin-right: 70px;
 	font-family: Montserrat;
 }
-#logo {
-	border: 1px solid #6d6d6d;
-	margin-top: 50px;
-}
 
 #author {
 	margin-left: 70px;
@@ -52,15 +94,3 @@ body {
 	padding-bottom: 10px;
 	font-family: Montserrat
  }
-.header{
-	background: rgb(25,25,25);
-	margin-bottom: 100px;
-	padding-bottom: 10px;
-}
-.nav {
-	color: rgb(178,178,178);
-	font-size: 18px;
-	margin-bottom:20px;
-	margin-left: 100px;
-	font-family: Montserrat
-}
