@@ -20,14 +20,12 @@ body {
 	font-size: 90px;
 	font-family: Colchester;
 	padding-bottom: 0px;
-	width:25%;
-	margin-left:300px;
-	background-color:rgb(255,0,0);
+	width:20%;
+	margin-left:365px;
 }
 .motto {
-	background-color:rgb(255,0,0);
 	float: left;
-	width:25%;
+	width:22%;
 	text-align: center;
 	color: rgb(0, 171, 174);
 	font-size: 26px;
@@ -36,8 +34,6 @@ body {
 	margin:50px 0 0 20px;
 }
 #logo {
-	background-color:rgb(255,0,0);
-	padding:5px 5px 5px 5px;
 	float:left;
 	border: 1px solid #6d6d6d;
 	margin-top: 0px;
@@ -46,7 +42,7 @@ body {
 
 .header{
 	background: rgb(25,25,25);
-	padding:50px 0px 120px 0px;
+	padding:50px 0 120px 0px;
 }
 .header2{
 	background:rgb(25,25,25);
