@@ -53,6 +53,7 @@ body {
 }
 .nav {
 	float: left;
+	text-decoration: none;
 	color: rgb(178,178,178);
 	font-size: 18px;
 	padding: 5px 0 5px 0;
@@ -74,6 +75,7 @@ body {
 	float: left;
 	width:80%;
 	margin-top: 70px;
+	/*background-color: rgb(45,45,45);*/
 }
 .h2 {
 	text-align: center;
@@ -89,10 +91,28 @@ body {
 	margin-left: 70px;
 	margin-right: 70px;
 	font-family: Montserrat;
+	line-height: 180%;
 }
 .pagenav {
 	float:left;
 	width:20%;
+	border-right:2px solid rgb(45,45,45);
+	border-bottom:2px solid rgb(45,45,45);
+	padding-bottom: 40px
+	/*background-color: rgb(45,45,45);*/
+}
+.navlist a {
+	margin-left:80px;
+	color: rgb(178,178,178);
+	font-size: 16px;
+	text-decoration: none;
+	font-family: Montserrat;
+	line-height: 180%;
+	text-align: center;
+
+}
+.navlist a:hover{
+	color: rgb(60,60,60);
 }
 .h3 {
 	text-align: center;
@@ -100,11 +120,14 @@ body {
 	font-size: 40px;
 	font-family: Colchester;
 	padding-bottom: 20px;
+	margin-bottom:20px;
+}	
+.footer {
 }
 #author {
 	margin-left: 70px;
 	border: 1px solid #ddd;
-  	border-radius: 40px;
+  	border-radius: 50%;
  }
  #Aname {
 	padding-top: 15px;
