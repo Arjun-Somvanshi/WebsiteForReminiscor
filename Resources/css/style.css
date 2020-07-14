@@ -1,0 +1,86 @@
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------BASIC SETUP-------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Colchester';
+    src: url('Vendors/fonts/Colchester.ttf') format('truetype');
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+html{
+	background-color: rgb(30,30,30);
+	color: rgb(178,178,178);
+	font-family:'Montserrat', san-serif ;
+	font-size: 20px;
+	font-weight: 200;
+	text-rendering: optimizeLegibility;
+}
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------Header Section-------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+ header h2{
+	font-weight: 100;
+}
+header{
+	background-color: rgb(25,25,25);
+	height:30vh;
+}
+.logo-text{
+	font-family: 'Colchester';
+	font-size: 300%;
+	color: rgb(0,171,174);
+	position: absolute;
+	top:12%;
+	left:43%;
+	transform:translate(-50%,-50%);
+}
+.motto{
+	white-space: nowrap;
+	font-size: 120%;
+	letter-spacing: 3px;
+	color: rgb(0,171,174);
+	position: absolute;
+	top:25%;
+	left:45%;
+	transform:translate(0%,-50%);
+}
+.logo-div{
+	
+}
+.logo {
+	margin-left:20px;
+	height:40%; 
+	width:auto;
+	border: 2px solid rgb(45,45,45);
+	position: fixed;
+	left: 100%;
+	top:30%;
+} 
+/*----------------------------------Navigation-------------------------------------*/
+.main-nav{
+	list-style: none;
+}
+.main-nav li a{
+	white-space: nowrap;
+	float:left;
+	text-decoration: none;
+	color:rgb(178,178,178);
+	border:1px solid rgb(30,30,30);
+	padding:10px 0;
+	text-align: center;
+	width:20%;
+	background-color:rgb(45,45,45);
+}
+.main-nav li a:hover, .main-nav li a:active{
+	background-color: rgb(25,25,25);
+	border: 1px solid rgb(178,178,178);
+	transition: background-color 0.6s, border 0.6s;
+}

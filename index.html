@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="Vendor/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="Vendor/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="Resources/css/style.css">
-	<link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,200&display=swap" rel="stylesheet"> 
 	<meta charset="UTF-8">
 	<title>Reminiscor</title>
 </head>
 <body>
-	
+	<header>
+		<div class="logo-text">
+			<h1>Reminicor</h1>
+			<img src="Resources/img/Logo.png" alt="Reminiscor Logo"  class='logo'>
+		</div>	
+		<div class="motto">
+			<h2>Encrypting Anxieties</h2>
+		</div>	
+	</header>
+	<nav>
+		<ul class="main-nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Download</a></li>
+			<li><a href="#">Documentation</a></li>
+			<li><a href="#">Contact Me</a></li>
+		</ul>
+	</nav>
+	<section>
+
+		<div class = 'row'>
+			<h2>Need to free up space in your head? &mdash; Reminiscor has got your back! </h2>
+			<p>Reminiscor is a minimal and easy to set-up Password Manager application which is available on Windows and Linux systems. 
+			   It uses 256-bit AES encryption along with an imporved algorithm of the well known Enigma Machine to encrypt your data. 
+			   It is offline and has facilities to share and backup password entries, making it secure and reliable. It's also free and open-source for
+			   development.
+			</p>
+		</div>
+
+		<div class='row'>
+
+			<div class="col span-1-of-4">
+				<h3>One password to encrypt 'em all!</h3>
+			 	<p>
+			 		Use your master password to secure all your files with 256-bit AES encryption along with each individual password entry being encrypted with
+			 		<i>"Enigma keys"</i> which are unique and also generated during run-time, There are 360!(factorial) possible keys. After a new entry is
+			 		added another layer of enigma encryption is applied on all passwords after which the final layer of AES encryption comes into play.
+			 	</p>
+			</div>
+
+			<div class="col span-1-of-4">
+				<h3>Isn't Offline inconvinient?</h3>
+			 	<p>
+			 		Some might see this as a drawback but I as a developer would like to keep my passwords only with me! Instead of trust, Reminiscor 
+			 		gives you the oppurtunity to review it's security. Also it provides backup options where all user files can be immediately be put on a
+			 		remote repository or  onto backup storage media to restore entries or to port them to a new device at any given time, all backup files are safe to store anywhere too.
+			 	</p>
+			</div>
+
+			<div class="col span-1-of-4">
+				<h3>Can I share my passwords?</h3>
+			 	<p>
+			 		You might have the idea that sharing password entries or accounts is hard in offline password managers. Reminiscor
+			 		lets you make a <i>"shared passwords file"</i> which may have one or many passwords to share around as an encrypted
+			 		file with other users, which can be decrypted only with the combination of the correct usernames and common password set by
+			 		you and the person(s) to share with.
+			 	</p>
+			</div>
+
+			<div class="col span-1-of-4">
+				<h3>Isn't Enigma 100 years old now?</h3>
+			 	<p>
+			 		Enigma was sophisticated, the reason it failed was because of its physical limitations. We have expanded the Enigmas algorithm to generate around 360! (factorial) possible enigma keys that can encrypt all characters in the English alphabet along with numbers and special characters. This allows us to have an additional layer of security under the AES encryption which remains the outer and the most secure layer.
+			 	</p>
+			</div>
+
+		</div>
+		
+
+	</section>
 </body>
 </html>
