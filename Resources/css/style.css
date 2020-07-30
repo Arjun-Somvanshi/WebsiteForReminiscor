@@ -51,9 +51,10 @@ header{
 	height:30vh;
 }
 .logo-text{
-	font-family: 'Montserrat';
+	font-family: 'Colchester';
 	font-size: 300%;
 	color: rgb(0,171,174);
+	font-weight: 200;
 	position: absolute;
 	top:12%;
 	left:43%;
