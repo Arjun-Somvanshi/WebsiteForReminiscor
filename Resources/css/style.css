@@ -7,8 +7,8 @@
 	box-sizing: border-box;
 }
 @font-face {
-    font-family: Colchester;
-    src: url('Vendor/fonts/Colchester.ttf');
+    font-family: 'Colchester';
+    src: url('Colchester.ttf') format('truetype');
 }
 /*----------------------------------Reusable stuff-------------------------------------*/
 .row {
@@ -51,7 +51,7 @@ header{
 	height:30vh;
 }
 .logo-text{
-	font-family: Colchester;
+	font-family: 'Colchester';
 	font-size: 300%;
 	color: rgb(0,171,174);
 	font-weight: 200;
