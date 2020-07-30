@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'Colchester';
-    src: url('Vendor/fonts/Colchester.TTF') format('truetype');
+    src: url('../../Vendor/fonts/Colchester.TTF') format('truetype');
 }
 /*----------------------------------Reusable stuff-------------------------------------*/
 .row {
