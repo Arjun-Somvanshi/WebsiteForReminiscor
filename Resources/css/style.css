@@ -51,7 +51,8 @@ header{
 	height:30vh;
 }
 .logo-text{
-	font-family: 'Colchester';
+	font-family: 'Montserrat';
+	font-weight: 100;
 }
 .motto{
 	white-space: nowrap;
