@@ -52,13 +52,6 @@ header{
 }
 .logo-text{
 	font-family: 'Colchester';
-	font-size: 300%;
-	color: rgb(0,171,174);
-	font-weight: 200;
-	position: absolute;
-	top:12%;
-	left:43%;
-	transform:translate(-50%,-50%);
 }
 .motto{
 	white-space: nowrap;
