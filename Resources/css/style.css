@@ -50,9 +50,17 @@ header{
 	background-color: rgb(25,25,25);
 	height:30vh;
 }
+header h1 {
+	font-family: 'Colchester';
+}
 .logo-text{
-	font-family: 'Montserrat';
-	font-weight: 100;
+	font-family: 'Colchester';
+	font-size: 300%;
+	color: rgb(0,171,174);
+	position: absolute;
+	top:12%;
+	left:43%;
+	transform:translate(-50%,-50%);
 }
 .motto{
 	white-space: nowrap;
