@@ -33,12 +33,12 @@
 			<li><a href="#">Contact Me</a></li>
 		</ul>
 	</div>
-	<section>
+	<section class='home'>
 
-		<div class='row'>
+		<div class='row home-intro'>
 
 			<h2>Don't memorize anymore! &mdash; Reminiscor has your back</h2>
-			<p class='longcopy'>Reminiscor is a minimal and easy to set-up Password Manager application which is
+			<p class='longcopy' style="text-align: center;">Reminiscor is a minimal and easy to set-up Password Manager application which is
 				available on Windows and Linux systems.
 				It uses 256-bit AES encryption along with an imporved algorithm of the well known Enigma Machine to
 				encrypt your data.
@@ -105,9 +105,54 @@
 
 
 	</section>
-	<section>
-		<div class=>
-
+	<section class='features'>
+		<div class='row'>
+			<h2>FEATURES</h2>
+			<p class='longcopy' style="text-align: center;">Reminiscor was built for a user-friendly experience and this section 
+				highlights the capabilities of Reminiscor and what you can expect of it!</p>
+		</div>
+		<div class="row feature-list1">
+			<div class= 'col span-1-of-2 box'>
+				<h3>It’s completely offline</h3>
+				<p>
+					Reminiscor is offline but not in an inconvenient way. It has a fully fledged backup import and export system. All backups are secure to 
+					store anywhere and can only be decrypted using the master password which generates a 32 byte key using PBKDF2 for AES decryption of
+					 the top layer and enigma keys are used  to decrypt each entry at the bottom level. 
+				</p>
+				<p>
+					<br>Reminiscor was built as an offline application because it didn’t require the user to blindly trust the app.  
+					Thus being off thr grid, it proves that there is no one between you and your data and that you have full control.
+				</p>
+			</div>
+			<div class= 'col span-1-of-2 box'>
+				<h3>Password Generator</h3>
+				<p>
+					‘PASSWORD123’ is not a good password for your gmail account! I am sure they tell you what 
+					length your password should be, but you still can’t be predictable to attackers. 
+					Now that you don’t have to remember any of your passwords consider using the inbuilt password generator which generates
+					passwords in the range of 8 characters to 40 characters and these passwords contain at least one capitalized letter, 
+					one number and one special character. 
+				</p>
+				<p>
+					<br>These lengthy passwords can always be copied while viewing a specific entry. The password generator is very 
+					useful tool since it saves time and boosts security.
+				</p>
+			</div>
+		</div>
+		<div class='row feature-list2'>
+			<h3>Secuity and Encryption</h3>
+			<p class="longcopy">
+				Encryption is the method to store data in a manner such that if it’s intercepted by an attacker, he/she cannot make any sense of it.
+				Ages have been spent finding methods to encrypt and decrypt data fast and efficiently. After a lot of improvisation the current best 
+				standard on the planet namely AES, abbreviated as the ‘Advanced Encryption Standard’ is what is widely used secure data in digital world.
+			</p>
+			<p class=longcopy>
+				<br>Reminiscor uses 256-bit (length) keys for AES encryption and decryption and these keys are generated using PBKDF2. Each entry before being 
+				encrypted by AES are encrypted by a polyalphabetic stream cipher system called 'Enigma' which was developed by the Germans during the second World War. Though the system was 
+				comprised due to it’s physical limitations now the algorithm is improved and provides an additional layer of security for the users. Each Enigma 
+				key consists of randomly generated plugboard keys,  three randomly generated moving rotors that can increment after every letter is encrypted just 
+				like the original algorithm and finally reflector pairs which are also random. Following is an illustration of the layers of encryption.
+			</p>
 		</div>
 	</section>
 </body>
