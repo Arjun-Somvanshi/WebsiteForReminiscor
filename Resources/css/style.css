@@ -19,9 +19,8 @@ h1{
 	margin:0;
 }
 html{
-	/*
-	min-width: 1200px;
-	min-height: 800px;*/
+	min-width: 800px;
+	min-height: 600px;
 	background-color: rgb(30,30,30);
 	color: rgb(178,178,178);
 	font-family:'Montserrat', san-serif ;
@@ -179,6 +178,39 @@ section h3:after{
 .feature-list1 h3:after{
 	height: 1px;
 } 
-.feature-list1, .feature-list2{
+.feature-list1, .feature-list2, .feature-list3{
 	margin-top: 50px;
 } 
+.UI{
+	width: 100%;
+	height:auto;
+}
+.box1{
+	padding:3.5%;
+	margin-top: 40px;
+}
+/*----------------------------------Download Page-------------------------------------*/
+.download{
+	margin-top: 100px;
+}
+ table, th, td{
+	border: solid 2px rgb(45,45,45);
+	border-collapse: collapse;
+}
+th{
+	padding: 25px 50px;
+	white-space: nowrap;
+}
+table{
+	width:90%;
+	margin: 10px 0 100px 0;
+}
+tr{
+	text-align: center;
+}
+td{
+	padding: 15px 0;
+}
+tr:nth-child(odd){
+	background-color: rgb(25,25,25);
+}
