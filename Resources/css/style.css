@@ -180,6 +180,10 @@ section h3:after{
 .feature-list1, .feature-list2, .feature-list3{
 	margin-top: 50px;
 } 
+.feature-list4 img
+{
+	border: solid 1px rgb(178,178,178);
+}
 .UI{
 	width: 100%;
 	height:auto;
@@ -212,4 +216,15 @@ td{
 }
 tr:nth-child(odd){
 	background-color: rgb(25,25,25);
+}
+.download_link{
+	color:rgb(0,171,174);
+	text-decoration: none;
+}
+.docs{
+	margin-top: 50px;
+}
+.contact_me{
+	margin-top: 150px;
+	margin-bottom: 100px;
 }
